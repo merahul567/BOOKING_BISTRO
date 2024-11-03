@@ -1,24 +1,80 @@
-# Compiled class file
-*.class
+# Ignore Maven/Gradle build files
+/target/
+/build/
 
-# Log file
+# Ignore dependency directories
+/.mvn/
+/.gradle/
+/node_modules/
+
+# Ignore Eclipse IDE project files
+/.classpath
+/.project
+/.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Ignore logs and temporary files
 *.log
+*.tmp
+*.temp
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Spring Boot-specific files
 *.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test result directories
+/test-output/
+/out/
+
+# Ignore config and environment files
+.env
+*.env
+*.env.*
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Ignore credentials and security files
+*.p12
+*.jks
+*.pem
+*.key
+
+# Ignore Docker-related files
+docker-compose.override.yml
+*.log
+.docker/
+docker-data/
+
+# Ignore Kubernetes/Helm config
+k8s/
+helm/
+
+# Ignore other files generated at runtime
+/.cache/
+/.cache/
+/logs/
+/tmp/
+/data/
+
+# Ignore IntelliJ JAR Cache
+.caches/
